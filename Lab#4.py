@@ -29,7 +29,7 @@ print(s2)'''
 #Example4
 '''
 name = "MonicaGeller"
-if name.isalpha() == True:
+if name.isalpha() == True:#isalpha(): егер жол тек алфавиттік таңбалардан тұрса, True мәнін қайтарады
     print("All characters are alphabets")
 else:
     print("All characters are not alphabets.")'''
