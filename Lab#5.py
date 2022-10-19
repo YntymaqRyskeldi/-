@@ -97,7 +97,8 @@ get_student_grades(student_grades)
 list = []
 while (number := input('Enter number: ')) != '0':
   try:
-    list.append(int(number))
+    list.append(int(number))#ерекше жағдайды шығара алатын операция блоктың ішіне орналастырылады try.
+         #Ал қате орын алған кезде орындалуы керек код ішінде болады except. дизайны else тармағы бар шартты мәлімдемеге ұқсас.
   except ValueError:
    ...
 list.sort()
