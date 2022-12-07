@@ -1,0 +1,26 @@
+#Резюме
+print("                      Резюме            ")
+fio = "Ф.И.О : Наби Айман Серікқызы"
+date_of_birth = "Дата рождения : 23.12.2002"
+obrazovanie = "Образование : Satbayev University"
+print(fio)
+print(date_of_birth)
+obrazovanie = {
+    'ВУЗ': 'Satbayev University',
+    'Специальность ': 'Computer Science',
+    'GPA': '3.3',
+    'Год окончания ': '2023'
+}
+for x, y in obrazovanie.items():
+    print(x + ' : ' + y)
+
+skills = ['Языки программирования C++, Python', 'Django', 'OS Linux', 'HTML,CSS']
+for x in skills:
+    print("\tОсновные навыки : " + x)
+
+info = []
+info.append("Номер телефона : ")
+info.append("Эл.почта : ")
+print(info[0] + '87071376847')
+print(info[1] + 'nabiaiman@gmail.com')
+print("Цель : " + "Получение вакантной должности программиста-стажера")
